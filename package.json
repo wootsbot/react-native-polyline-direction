@@ -1,6 +1,10 @@
 {
   "name": "@react-native-maps/polyline-direction",
   "version": "1.0.0",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "A component in (iOS + Android) for drawing routes with the polyline of the react-native-maps library",
   "main": "index.js",
   "directories": {
