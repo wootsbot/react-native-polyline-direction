@@ -5,7 +5,7 @@
       "module-resolver",
       {
         "alias": {
-          "@react-native-maps/polyline-direction": "./",
+          "@react-native-maps/polyline-direction": "./lib/polyline-direction.js",
           "utils": "./src/utils/"
         }
       }

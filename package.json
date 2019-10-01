@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "A component in (iOS + Android) for drawing routes with the polyline of the react-native-maps library",
   "main": "index.js",
-  "scripts": {
-    "clean": "rm -rf lib",
-    "prepare": "npm run build",
-    "build": "npm run clean && npm run build:lib",
-    "build:lib": "babel src/ --out-dir ./lib"
+  "directories": {
+    "lib": "lib"
   },
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wootsbot/react-native-polyline-direction.git"
@@ -19,6 +20,12 @@
     "url": "https://github.com/wootsbot/react-native-polyline-direction/issues"
   },
   "homepage": "https://github.com/wootsbot/react-native-polyline-direction#readme",
+  "scripts": {
+    "clean": "rm -rf lib",
+    "prepare": "npm run build",
+    "build": "npm run clean && npm run build:lib",
+    "build:lib": "babel src/ --out-dir ./lib"
+  },
   "peerDependencies": {
     "react": "16.8.6",
     "react-native": "0.60.5",
