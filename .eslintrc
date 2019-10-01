@@ -1,0 +1,53 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "@react-native-community",
+    "plugin:prettier/recommended",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "*"
+    }
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "plugins": ["prettier", "react", "react-hooks"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "es5",
+        "jsxBracketSameLine": true,
+        "semi": true,
+        "parser": "flow",
+        "endOfLine": "lf",
+        "printWidth": 120
+      }
+    ],
+    "no-unused-vars": [
+      2,
+      {
+        "vars": "all",
+        "args": "after-used"
+      }
+    ],
+    "no-console": 1,
+    "no-unexpected-multiline": "error",
+    "react/destructuring-assignment": ["error", "always"],
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-first-prop-new-line": [2, "multiline"]
+  }
+}
