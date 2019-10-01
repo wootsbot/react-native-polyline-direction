@@ -128,3 +128,7 @@ Since the result rendered on screen is a `MapView.Polyline` component, all [`Map
 ## Whats Next
 
 I could take the sources to the [project](https://github.com/bramus/react-native-maps-directions) where I was inspired, for the moment I will do my best to keep the package updated
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
