@@ -6,6 +6,11 @@
 
 </div>
 
+[![package version](https://img.shields.io/npm/v/@react-native-maps/polyline-direction.svg)](https://npmjs.org/package/@react-native-maps/polyline-direction)
+[![package downloads](https://img.shields.io/npm/dm/@react-native-maps/polyline-direction.svg)](https://npmjs.org/package/@react-native-maps/polyline-direction)
+[![package license](https://img.shields.io/npm/l/@react-native-maps/polyline-direction.svg)](https://npmjs.org/package/@react-native-maps/polyline-direction)
+[![Build Status](https://travis-ci.org/wootsbot/react-native-polyline-direction.svg?branch=master)](https://travis-ci.org/wootsbot/react-native-polyline-direction)
+
 ## Installation
 
 Install the package in your project directory with:
