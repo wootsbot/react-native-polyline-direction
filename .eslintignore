@@ -7,3 +7,4 @@ node_modules
 # Cruft
 .DS_Store
 npm-debug.log
+src/utils/polyline-decode.js
