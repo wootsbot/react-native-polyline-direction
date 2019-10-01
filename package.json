@@ -2,6 +2,20 @@
   "name": "@react-native-maps/polyline-direction",
   "version": "1.0.0",
   "private": false,
+  "maintainers": [
+    {
+      "name": "Jorge Luis Calleja Alvarado",
+      "email": "jorgelca1205@gmail.com",
+      "web": "https://github.com/wootsbot"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Jorge Luis Calleja Alvarado",
+      "email": "jorgelca1205@gmail.com",
+      "web": "https://github.com/wootsbot"
+    }
+  ],
   "publishConfig": {
     "access": "public"
   },
@@ -29,9 +43,19 @@
     "prepare": "npm run build",
     "build": "npm run clean && npm run build:lib",
     "build:lib": "babel src/ --out-dir ./lib",
+    "test": "echo \"Not Test\" && exit 0",
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint --fix .",
+    "lint:husky": "npm run prettier && npm run lint",
+    "prettier": "prettier --ignore-path \"./.prettierignore\" --config .prettierrc --write \"./src/**/*.js\" \"./src/**/*.jsx\"",
     "version:major": "npm version major",
     "version:minor": "npm version minor",
     "version:patch": "npm version patch"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:husky"
+    }
   },
   "peerDependencies": {
     "react": "16.8.6",
