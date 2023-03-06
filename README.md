@@ -1,3 +1,9 @@
+<br>
+
+### 🟥 DEPRECATED: This project is no longer maintained, please use the project where this project original [bramus/react-native-maps-directions](https://github.com/bramus/react-native-maps-directions) 🟥
+
+<br>
+
 <div align="center">
 
 # `@react-native-maps/polyline-direction`
